@@ -2,7 +2,6 @@ import { useState } from 'react';
 import LoginPage from '../pages/LoginPage';
 import MePage from '../pages/MePage';
 import Loader from "react-loader-spinner";
-import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [isLogin, setIsLogin] = useState(JSON.parse(localStorage.getItem('isLogin')))
